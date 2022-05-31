@@ -1,3 +1,30 @@
-body{
-    background-color: #c9c9;
+/* Aqui acrescentei uma fonte diferente da usada no BootStrap para dar um destaque a mais, 
+além de alterar as margens internas e externas para ter um melhor espaçamento com os demais componentes
+e para evitar que o texto acabe sendo jogado para os lados, adicionei um text-align: center que ira manter 
+tudo no centro independente do tamanho que a página passe a ter. */
+.textoPet {
+    font-family: 'Lato', sans-serif;
+    font-size: auto;
+    margin-top: 10em;
+    margin-bottom: 5em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+/* Aqui utilizei coisas simples para apenas centralizar e colocar uma pequena margem. */
+.localizacao {
+    margin-top: 5em;
+    margin-bottom: 10em;
+    text-align: center;
+    size: 50em;
+    padding: auto;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Aqui adicionei uma fonte diferente da usada no bootstrap, e deixei o texto no centro. */
+.footer {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
 }

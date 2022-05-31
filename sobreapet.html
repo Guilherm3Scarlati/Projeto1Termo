@@ -1,119 +1,151 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <!-- tags necessárias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="shortcut icon" href="./img/logotipopetshop.jpeg">
+<head>
+  <!-- Tags necessárias. -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS. -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Meu CSS. -->
+  <link rel="stylesheet" href="./css/sobrepet.css">
+  <!-- Fonte. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <!-- Ícone do documento. -->
+  <link rel="shortcut icon" href="./img/logotipopetshop.jpeg">
+  <!-- Título do documento. -->
+  <title>Pet Shop - Império 4 Patas</title>
 
-    <link rel="stylesheet" href="./css/sobrepet.css">
+</head>
 
-    <title>Pet Shop - Império 4 Patas</title>
-    
-  </head>
+<body>
+  <!-- Barra de navegação BootStrap. -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary mb-3 ">
 
-  <body >
-    <div >
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary m-auto ">
+    <div class="container-fluid">
 
-        <div class="container-fluid">
+      <a class="navbar-brand" href="./paginaPrincipal.html">Império 4 Patas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-          <a class="navbar-brand" href="#">Império 4 Patas</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-          data-bs-target="#navbarNav" aria-controls="navbarNav" 
-          aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./paginaPrincipal.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./sobreapet.html"><Strong>Sobre a Imperio 4 Patas</Strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./desenvolvedores.html">Desenvolvedores</a>
+          </li>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./paginaPrincipal.html">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="./sobreapet.html"><Strong>Sobre a Imperio 4 Patas</Strong></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./desenvolvedores.html">Desenvolvedores</a>
-              </li>
-              
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      
-
-      <div id="carouselExampleFade" class="carousel slide  carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/MicrosoftTeams-image (1).png" class="d-block col-8 m-auto w-60" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/MicrosoftTeams-image (2).png" class="d-block col-8 m-auto w-60" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/MicrosoftTeams-image (3).png" class="d-block col-8 m-auto w-60" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/MicrosoftTeams-image (4).png" class="d-block col-8 m-auto w-60" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/MicrosoftTeams-image.png" class="d-block col-8 m-auto w-60" alt="...">
-          </div>
-          
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        </ul>
       </div>
-    
-      <br><br><br>
-      
-      <div class="col-10 m-auto text-center">
-      <h2><Strong>Um pouco sobre nossa história</Strong></h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Aperiam sequi vitae ut recusandae ducimus qui fugit, dolorem nulla libero 
-        in. Praesentium officiis blanditiis reprehenderit a nesciunt 
-        repudiandae eius reiciendis quo.Lorem ipsum dolor sit amet consectetur 
-        adipisicing elit. Aperiam sequi vitae ut recusandae ducimus qui fugit, 
-        dolorem nulla libero in. Praesentium officiis blanditiis reprehenderit a 
-        nesciunt repudiandae eius reiciendis quo.Lorem ipsum dolor sit amet 
-        consectetur adipisicing elit. Aperiam sequi vitae ut recusandae ducimus 
-        qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis 
-        reprehenderit a nesciunt repudiandae eius reiciendis quo.Lorem ipsum 
-        dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut 
-        recusandae ducimus qui fugit, dolorem nulla libero in. Praesentium 
-        officiis blanditiis reprehenderit a nesciunt repudiandae eius reiciendis 
-        quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut recusandae ducimus qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis reprehenderit a nesciunt repudiandae eius reiciendis quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut recusandae ducimus qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis reprehenderit a nesciunt repudiandae eius reiciendis quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut recusandae ducimus qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis reprehenderit a nesciunt repudiandae eius reiciendis quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut recusandae ducimus qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis reprehenderit a nesciunt repudiandae eius reiciendis quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut recusandae ducimus qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis reprehenderit a nesciunt repudiandae eius reiciendis quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut recusandae ducimus qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis reprehenderit a nesciunt repudiandae eius reiciendis quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut recusandae ducimus qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis repreh
-        enderit a nesciunt repudiandae eius reiciendis quo.L
-        orem ipsum dolor sit amet consectetur adipisicing elit. 
-        Aperiam sequi vitae ut recusandae ducimus qui fugit, 
-        ]dolorem nulla libero in. Praesentium officiis blanditiis 
-        reprehenderit a nesciunt repudiandae eius reiciendis quo.</p>
-      </div>
-
-      <br><br><br><br><br>
-
-      <center><div class="container-fluid col-auto w-100 ">
-        <a href="https://goo.gl/maps/qbeMfw9CnfJwRnMW7"><img src="./img/Screenshot_20220516-214649-105.png" alt=""></a>
-      </div></center>
-
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    
     </div>
-  </body>
-  <!-- Java script -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
-  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
-  crossorigin="anonymous"></script>
+  </nav>
+
+  <!-- Quebra de linhas -->
+  <br><br><br>
+
+  <!-- Galeria Carrossel. -->
+  <div id="carouselExampleFade" class="carousel slide  carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/MicrosoftTeams-image (1).png" class="d-block col-4 m-auto w-10" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/MicrosoftTeams-image (2).png" class="d-block col-4 m-auto w-10" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/MicrosoftTeams-image (3).png" class="d-block col-4 m-auto w-10" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/MicrosoftTeams-image (4).png" class="d-block col-4 m-auto w-10" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/MicrosoftTeams-image.png" class="d-block col-4 m-auto w-10" alt="...">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Texto sobre a história da Pet Shop. -->
+  <div class="textoPet">
+    <h2><Strong>Um pouco sobre nossa história</Strong></h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Aperiam sequi vitae ut recusandae ducimus qui fugit, dolorem nulla libero
+      in. Praesentium officiis blanditiis reprehenderit a nesciunt
+      repudiandae eius reiciendis quo.Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Aperiam sequi vitae ut recusandae ducimus qui fugit,
+      dolorem nulla libero in. Praesentium officiis blanditiis reprehenderit a
+      nesciunt repudiandae eius reiciendis quo.Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Aperiam sequi vitae ut recusandae ducimus
+      qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis
+      reprehenderit a nesciunt repudiandae eius reiciendis quo.Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut
+      recusandae ducimus qui fugit, dolorem nulla libero in. Praesentium
+      officiis blanditiis reprehenderit a nesciunt repudiandae eius reiciendis
+      quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut recusandae ducimus qui
+      fugit, dolorem nulla libero in. Praesentium officiis blanditiis reprehenderit a nesciunt repudiandae eius
+      reiciendis quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut recusandae
+      ducimus qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis reprehenderit a nesciunt repudiandae
+      eius reiciendis quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut recusandae
+      ducimus qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis reprehenderit a nesciunt repudiandae
+      eius reiciendis quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut recusandae
+      ducimus qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis reprehenderit a nesciunt repudiandae
+      eius reiciendis quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut recusandae
+      ducimus qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis reprehenderit a nesciunt repudiandae
+      eius reiciendis quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut recusandae
+      ducimus qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis reprehenderit a nesciunt repudiandae
+      eius reiciendis quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi vitae ut recusandae
+      ducimus qui fugit, dolorem nulla libero in. Praesentium officiis blanditiis repreh
+      enderit a nesciunt repudiandae eius reiciendis quo.L
+      orem ipsum dolor sit amet consectetur adipisicing elit.
+      Aperiam sequi vitae ut recusandae ducimus qui fugit,
+      ]dolorem nulla libero in. Praesentium officiis blanditiis
+      reprehenderit a nesciunt repudiandae eius reiciendis quo.
+    </p>
+  </div>
+
+  <!-- Imagem clicável com a localização da Pet Shop -->
+  <div class="localizacao">
+    <p>Clique na imagem abaixo para acessar a localização da Império 4 Patas:</p>
+    <a href="https://goo.gl/maps/qbeMfw9CnfJwRnMW7"><img src="./img/img-frente.png" alt="Localização"></a>
+  </div>
+
+
+  <!-- Copyright -->
+  <div class="footer">
+    <footer>
+      <p><Strong> Criado e desenvolvido por Guilherme Scarlati, Diego Ferreira, Diego Jonys e Igor Tenório. Todos os
+          direitos reservados. &copy;
+          2022</Strong></p>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+</body>
+<!-- Java script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </html>

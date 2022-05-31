@@ -1,0 +1,51 @@
+/* Para deixar um pouco diferente das outras páginas adicionei uma cor ao corpo inteiro.  */
+body {
+    background-color: rgb(238, 238, 238);
+
+}
+
+/* Aqui mudei a fonte novamente para padronizar o site inteiro com a mesma, igual havia feito antes em todos os componentes que possuem texto,
+adicionei margens internas e margens externas para organizar, além de centralizar o texto. */
+.perfil {
+    margin-top: 10em;
+    margin-bottom: 2.5em;
+    font-family: 'Lato', sans-serif;
+    padding: 0.5em;
+    font-style: oblique;
+    font-size: auto;
+    text-align: center;
+}
+
+/* Para deixar todas as imagens clicáveis para o LinkedIn alinhados me baseei em um projeto ja anteriormente feito com o BootStrap, na aula de LMA, removendo 
+algumas coisas para uma melhor adaptação ao nosso site. */
+.colunas {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Focando nos componentes com a classe input-group, deixamos eles com 49% do espaço disponível para ele e adicionamos uma margem à esquerda para ficar visualmente
+melhor. */
+.colunas .input-group {
+    width: 48%;
+    margin-left: 2.5em;
+}
+
+/* Aqui alterei apenas o componente p, padronizando a fonte, mudando o estilo, e a cor para visualmente ficar mais bonito, além de margens internas e externas. */
+.colunas p {
+    padding-right: 1.5em;
+    margin-bottom: 1.5em;
+    padding-bottom: 2em;
+    position: absolute;
+    color: aliceblue;
+    font-style: italic;
+    font-family: 'Lato', sans-serif1;
+}
+
+/* Nesta parte igual às outras páginas, padronizei o footer com as mesmas alterações praticamente, só aumentando a margem do topo. */
+.footer {
+    margin-top: 25em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}

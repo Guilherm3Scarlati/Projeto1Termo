@@ -1,0 +1,24 @@
+/* Aqui adicionei margens para distanciar os itens do logo da Pet Shop e centralizei. */
+.foto {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+
+}
+
+/* Aqui redimensionei o texto para o centro e aumentei um pouco o espaçamento tanto interno quanto externo, além de alterar a fonte.  */
+.textoPrograma {
+    font-family: 'Lato', sans-serif;
+    font-size: auto;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    padding: 0.5em;
+}
+
+/* Aqui adicionei uma fonte diferente da usada no bootstrap, deixei o texto no centro e coloquei uma margem externa para deixar mais organizado. */
+.footer {
+    margin-top: 5em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
