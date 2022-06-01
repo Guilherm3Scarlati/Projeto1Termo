@@ -7,11 +7,8 @@ tudo no centro independente do tamanho que a página passe a ter. */
     font-size: auto;
     margin-top: 10em;
     margin-bottom: 5em;
-    margin-left: 20em;
     padding: 0.5em;
     text-align: center;
-    width: 50%;
-    align-items: center;
 }
 
 /* Aqui utilizei coisas simples para apenas centralizar e colocar uma pequena margem. */
